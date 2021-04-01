@@ -120,7 +120,7 @@ echo "Writing to a configuration file $CONF_FILE...";
 cat > $CONF_FILE <<EOL
 ServerName localhost
 
-<VirtualHost *:80>
+<VirtualHost *:8080>
 	DocumentRoot /var/www/
 </VirtualHost>
 
